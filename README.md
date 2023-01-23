@@ -1,6 +1,6 @@
 # Hackerrank
 HackerRank Solutions
-# 1 Write the following code in your editor below:
+# 1. Write the following code in your editor below:
 
 A class named Arithmetic with a method named add that takes  integers as parameters and returns an integer denoting their sum.
 A class named Adder that inherits from a superclass named Arithmetic.
@@ -19,7 +19,7 @@ Sample Output
 The main method in the Solution class above should print the following:
 
 
-# 2 A Java abstract class is a class that can't be instantiated. That means you cannot create new instances of an abstract class. It works as a base for subclasses. You should learn about Java Inheritance before attempting this challenge.
+# 2. A Java abstract class is a class that can't be instantiated. That means you cannot create new instances of an abstract class. It works as a base for subclasses. You should learn about Java Inheritance before attempting this challenge.
 
 Following is an example of abstract class:
 
@@ -47,3 +47,23 @@ A tale of two cities
 Sample Output
 
 The title is: A tale of two cities
+
+
+# 3. A Java interface can only contain method signatures and fields. The interface can be used to achieve polymorphism. In this problem, you will practice your knowledge on interfaces.
+
+You are given an interface AdvancedArithmetic which contains a method signature int divisor_sum(int n). You need to write a class called MyCalculator which implements the interface.
+
+divisorSum function just takes an integer as input and return the sum of all its divisors. For example divisors of 6 are 1, 2, 3 and 6, so divisor_sum should return 12. The value of n will be at most 1000.
+
+Read the partially completed code in the editor and complete it. You just need to write the MyCalculator class only. Your class shouldn't be public.
+
+Sample Input
+
+6
+Sample Output
+
+I implemented: AdvancedArithmetic
+12
+Explanation
+
+Divisors of 6 are 1,2,3 and 6. 1+2+3+6=12.
